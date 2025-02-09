@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Головна</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" href="favicon.svg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="index.html" class="nav__logo">
+					<img src="./images/logo-nobg.png" alt="Logo">
+				</a>
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="index.html" class="nav__link active-link">Головна</a>
+						</li>
+						<li class="nav__item">
+							<a href="shop.html" class="nav__link">Асортимент</a>
+						</li>
+						<li class="nav__item">
+							<a href="about.html" class="nav__link">Майстри</a>
+						</li>
+						<li class="nav__item">
+							<a href="blog.html" class="nav__link">Послуги</a>
+						</li>
+						<li class="nav__item">
+							<a href="faq.html" class="nav__link">Питання</a>
+						</li>
+						<li class="nav__item">
+							<a href="contact.html" class="nav__link">Контакти</a>
+						</li>
+					</ul>
+					<div class="nav__close" id="nav-close">
+						<i class="bx bx-x"></i>
+					</div>
+				</div>
+				<div class="nav__btns">
+					<div class="login__toggle" id="login-button">
+						<i class="bx bx-user"></i>
+					</div>
+					<!-- <div class="nav__shop" id="cart-shop">
+						<i class="bx bx-shopping-bag"></i>
+					</div> -->
+					<div class="nav__toggle" id="nav-toggle">
+						<i class="bx bx-grid-alt"></i>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="login" id="login">
+			<i class="bx bx-x login__close" id="login-close"></i>
+			<h2 class="login__title-center">Вхід</h2>
+			<form action="" class="login__form grid">
+				<div class="login__content">
+					<label for="" class="login__label">Єлектронна Пошта</label>
+					<input type="email" class="login__input">
+				</div>
+				<div class="login__content">
+					<label for="" class="login__label">Пароль</label>
+					<input type="password" class="login__input">
+				</div>
+				<div>
+					<a href="" class="button">Вхід</a>
+				</div>
+				<div>
+					<p class="signup">Немає аккаунта ? <a href="registration.html">Зарееструйся зараз</a> </p>
+				</div>
+			</form>
+		</div>
+		<div class="overlay" id="popup" style="display: none;"></div>
+		<section class="home">
+			<div class="deco-1 deco-1-animation"></div>
+			<div class="deco-2 deco-2-animation"></div>
+			<div class="deco-3 deco-3-animation"></div>
+			<div class="container">
+				<div class="intro">
+					<img src="./images/logo-nobg2.png" data-lightbox="avatar-1"alt="Balby" class="logo-intro-animation">
+					<h1 class="intro__title text-intro-animation">№1 Пірсинг салон у Львові</h1>
+					<div class="intro__text social-intro-animation">Ми в соціальних мережах</div>
+					<ul class="social-icons">
+						<li><a href="https://www.instagram.com/redinherd_piercing?igsh=ZWR5b2JmdnF3a3I1"><i class="lni lni-instagram-original social-intro-animation"></i></a></li>
+						<li><a href="https://www.facebook.com/share/1Jo43MHBgQ/?mibextid=wwXIfr"><i class="lni lni-facebook social-intro-animation"></i></a></li>
+						<li><a href="https://telegram.org/a/#1149191336:~:text=https%3A//bookon.ua/lite/redinherd_piercing%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaZ94lwWGFbgCu6xU8aF5q4hPZa2gILUZG1RGWyBUA0_HEs0C46qyNAUmrs_aem_mwFm8N_RJw%2DSJxdVH3QhlQ"><i class="lni lni-telegram-original social-intro-animation"></i></a></li>
+					</ul>
+					<div class="scroll-down scroll-intro-animation">
+						<a href="#" class="mouse-wrapper">
+							<span>Тягни вниз!</span>
+							<span class="mouse">
+								<span class="wheel"></span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="steps section container">
+			<div class="steps__bg">
+				<h1 class="section__title">Записатись на сеанс</h1>
+				<div class="steps__container grid">
+					<div class="steps__card">
+						<div class="steps__card-number">01</div>
+						<h3 class="steps__card-title">Аксесуари</h3>
+						<p class="steps__card-description">У нас понад 100+ аксесуарів! Аксесуари можно знайти в розділі <a href="shop.html">Асортимент</a></p>
+					</div>
+					<div class="steps__card">
+						<div class="steps__card-number">02</div>
+						<h3 class="steps__card-title">Майстер</h3>
+						<p class="steps__card-description">Про майстра можно глянути в розділи <a href="about.html">Майстри</a></p>
+					</div>
+					<div class="steps__card">
+						<div class="steps__card-number">03</div>
+						<h3 class="steps__card-title">Запис</h3>
+						<p class="steps__card-description">Записатись можно по  <a class="contact__subtitle" href="tel:380955145229">Телефону</a> або за допомогою <a href="https://bookon.ua/lite/redinherd_piercing?fbclid=PAZXh0bgNhZW0CMTEAAaZ94lwWGFbgCu6xU8aF5q4hPZa2gILUZG1RGWyBUA0_HEs0C46qyNAUmrs_aem_mwFm8N_RJw-SJxdVH3QhlQ" target="_blank">Онлайн запису!</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="new section">
+			<h1 class="section__title">Новинки!</h1>
+			<div class="new__container container">
+				<div class="swiper new-swiper">
+					<div class="swiper-wrapper">
+						<div class="new__content swiper-slide">
+							<img src="./images/items/55.JPG" alt="new image" class="new__img">
+							<h3 class="shop__title  new__all">Код товару: 327</h3>
+							<a href="shop.html" class="button--link button--flex">Весь асортимент <i class="bx bx-right-arrow-alt button__icon"></i></a>
+						</div>
+						<div class="new__content swiper-slide">
+							<img src="./images/items/56.JPG" alt="new image" class="new__img">
+							<h3 class="shop__title new__all">Код товару: 549</h3>
+							<a href="shop.html" class="button--link button--flex">Весь асортимент <i class="bx bx-right-arrow-alt button__icon"></i></a>
+						</div>
+						<div class="new__content swiper-slide">
+							<img src="./images/items/57.JPG" alt="new image" class="new__img">
+							<h3 class="shop__title new__all">Код товару: 982</h3>
+							<a href="shop.html" class="button--link button--flex">Весь асортимент <i class="bx bx-right-arrow-alt button__icon"></i></a>
+						</div>
+						<div class="new__content swiper-slide">
+							<img src="./images/items/58.JPG" alt="new image" class="new__img">
+							<h3 class="shop__title new__all">Код товару: 327</h3>
+							<a href="shop.html" class="button--link button--flex">Весь асортимент <i class="bx bx-right-arrow-alt button__icon"></i></a>
+						</div>
+						<div class="new__content swiper-slide">
+							<img src="./images/items/59.JPG" alt="new image" class="new__img">
+							<h3 class="shop__title new__all">Код товару: 549</h3>
+							<a href="shop.html" class="button--link button--flex">Весь асортимент <i class="bx bx-right-arrow-alt button__icon"></i></a>
+						</div>
+						<div class="new__content swiper-slide">
+							<img src="./images/items/60.JPG" alt="new image" class="new__img">
+							<h3 class="shop__title new__all">Код товару: 982</h3>
+							<a href="shop.html" class="button--link button--flex">Весь асортимент <i class="bx bx-right-arrow-alt button__icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="advantages section container">
+			<div class="advantages__bg">
+				<h1 class="section__title">Наші переваги</h1>
+				<div class="advantages__container grid">
+					<div class="advantages__card">
+						<div class="timeline timeline-1">
+							<div class="timeline-item">
+								<i class="timeline-icon">1</i>
+								<h3 class="timeline-date">
+								</h3>
+								<div class="timeline-title"> 9-ти річний досвід майстра</div>
+							</div>
+							<div class="timeline-item">
+								<i class="timeline-icon">2</i>
+								<h3 class="timeline-date">
+								</h3>
+								<div class="timeline-title">Медична освіта майстра</div>
+							</div>
+							<div class="timeline-item">
+								<i class="timeline-icon">3</i>
+								<h3 class="timeline-date">
+								</h3>
+								<div class="timeline-title">Постійні знижки та акційні пропозиції</div>
+							</div>
+							<div class="timeline-item">
+								<i class="timeline-icon">4</i>
+								<h3 class="timeline-date">
+								</h3>
+								<div class="timeline-title">Безкоштовні консультації та рекомендації</div>
+							</div>
+							<div class="timeline-item">
+								<i class="timeline-icon">5</i>
+								<h3 class="timeline-date">
+								</h3>
+								<div class="timeline-title">Контроль процесу загоєння проколу кожного клієнта безстроково</div>
+							</div>
+						</div>
+					</div>
+					<div class="advantages__card">
+						<div class="timeline timeline-2">
+							<div class="timeline-item">
+								<i class="timeline-icon">6</i>
+								<h3 class="timeline-date">
+								</h3>
+								<div class="timeline-title">Якісні біосумісні прикраси з титану</div>
+							</div>
+							<div class="timeline-item">
+								<i class="timeline-icon">7</i>
+								<h3 class="timeline-date">
+								</h3>
+								<div class="timeline-title">Сучасне обладнання</div>
+							</div>
+							<div class="timeline-item">
+								<i class="timeline-icon">8</i>
+								<h3 class="timeline-date">
+								</h3>
+								<div class="timeline-title">Ціна=якість. Мета – наші клієнти щасливі</div>
+							</div>
+							<div class="timeline-item">
+								<i class="timeline-icon">9</i>
+								<h3 class="timeline-date">
+								</h3>
+								<div class="timeline-title">Гучкий графік</div>
+							</div>
+							<div class="timeline-item">
+								<i class="timeline-icon">10</i>
+								<h3 class="timeline-date">
+								</h3>
+								<div class="timeline-title">Наші конкуренти нам не конкуренти а наші любі колеги</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="newsletter section">
+			<div class="newsletter__container container">
+				<h2 class="section__title">Співпраця</h2>
+				<!-- <p class="newsletter__description">пишіть нам на єлектронну пошту!</p> -->
+				<form action="" class="newsletter__form">
+					<input type="text" placeholder="Введіть вашу єлектронну пошту" class="newsletter__input">
+					<button type="button" class="button">Відправити</button>
+				</form>
+			</div>
+		</section>
+		<footer class="footer section">
+			<div class="footer__container container grid">
+				<div class="footer__content">
+					<a href="" class="footer__logo">
+						<img src="./images/logo-nobg.png" alt="Logo">
+					</a>
+					<p class="footer__description">Соціальні мережі:</p>
+					<div class="footer__social">
+						<a href="https://web.telegram.org/a/#-1002299702195" class="footer__social-link"><i class="bx bxl-telegram"></i></a>
+						<a href="https://www.facebook.com/share/1Jo43MHBgQ/?mibextid=wwXIfr" class="footer__social-link"><i class="bx bxl-facebook"></i></a>
+						<a href="https://www.instagram.com/redinherd_piercing?igsh=ZWR5b2JmdnF3a3I1" class="footer__social-link"><i class="bx bxl-instagram-alt"></i></a>
+					</div>
+				</div>
+				<div class="footer__content">
+					<h3 class="footer__title">Про нас</h3>
+					<ul class="footer__links">
+						<li><a href="about.html"class="footer__link">Майстри</a></li>
+						<li><a href="https://bookon.ua/lite/redinherd_piercing?fbclid=PAZXh0bgNhZW0CMTEAAaZ94lwWGFbgCu6xU8aF5q4hPZa2gILUZG1RGWyBUA0_HEs0C46qyNAUmrs_aem_mwFm8N_RJw-SJxdVH3QhlQ" target="_blank" class="footer__link">Онлайн запис</a></li>
+					</ul>
+				</div>
+				<div class="footer__content">
+					<h3 class="footer__title">Наші послуги</h3>
+					<ul class="footer__links">
+						<li><a href="contact.html"class="footer__link">Графік роботи</a></li>
+						</li>
+				</div>
+				<div class="footer__content">
+					<h3 class="footer__title">Компанія</h3>
+					<ul class="footer__links">
+						<li><a href="#"class="footer__link">Реестрація</a></li>
+						<li><a href="contact.html"class="footer__link">Контакти</a></li>
+				</div>
+			</div>
+			<span class="footer__copy"><p>Сайт розроблено: <a target="_blank" href="http://papchenko.com">papchenko.com</a></p>Всі права захищені.</span>
+		</footer>
+		<a href="#" class="scrollup" id="scroll-up"><i class="bx bx-up-arrow-alt scrollup__icon"></i></a>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+	<script type="module" src="./js/main.js"></script>
+</body>
