@@ -642,9 +642,10 @@ input {
     margin-bottom: var(--mb-0-5);
 }
 .advantages__card-description {
-    font-size: var(--h2-font-size);
+    font-size: var(--small-font-size);
 }
 .advantages__card-description a {
+    font-size: var(--normal-font-size);
     color: var(--first-color);
 }
 .timeline {
@@ -807,11 +808,11 @@ input {
     margin-bottom: var(--mb-0-75);
 }
 .contact__title {
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
 }
 .contact__subtitle {
-    font-size: var(--small-font-size);
+    font-size: var(--h2-font-size);
     color: var(--text-color);
 }
 .contact__form {
