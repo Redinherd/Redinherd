@@ -642,10 +642,9 @@ input {
     margin-bottom: var(--mb-0-5);
 }
 .advantages__card-description {
-    font-size: var(--small-font-size);
+    font-size: var(--h2-font-size);
 }
 .advantages__card-description a {
-    font-size: var(--normal-font-size);
     color: var(--first-color);
 }
 .timeline {
