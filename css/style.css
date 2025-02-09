@@ -517,10 +517,11 @@ input {
     margin-bottom: var(--mb-0-5);
 }
 .steps__card-description {
-    font-size: var(--small-font-size);
+    /* font-size: var(--small-font-size); */
+    font-size: var(--h2-font-size);
 }
 .steps__card-description a {
-    font-size: var(--normal-font-size);
+    /* font-size: var(--normal-font-size); */
     color: var(--first-color);
 }
 /* news */
@@ -672,7 +673,6 @@ input {
 }
 .timeline .timeline-title {
     margin: 0.15rem 0;
-    font-size: 1.4rem;
     font-size: var(--h2-font-size);
 }
 /* shop */
