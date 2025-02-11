@@ -107,7 +107,7 @@ gsap.from('.deco-2-animation', {y: -100, duration: 1, opacity: 0, ease: 'power1.
 // popup
 document.addEventListener("DOMContentLoaded", function() {
   const popup = document.getElementById('popup');
-  if (!localStorage.getItem('popupClosed')) {
+  if (!sessionStorage.getItem('popupClosed')) {
       popup.innerHTML = `
           <div class="popup">
               <button class="close-btn" id="closeButton">×</button>
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
       popup.style.display = 'flex';
       document.getElementById('closeButton').addEventListener('click', function() {
           popup.style.display = 'none';
-          localStorage.setItem('popupClosed', 'true');
+          sessionStorage.setItem('popupClosed', 'true');
       });
   }
 });
