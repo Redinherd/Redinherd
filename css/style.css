@@ -463,24 +463,76 @@ input {
     height: 50%;
     bottom: 12%;
     left: 5%;
-    background-image: url('./../images/deco/pirch1.PNG');
+    background-image: url('./../images/deco/pirch1.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 140px;
-    opacity: 0.6;
+    background-size: 240px;
+    opacity: 0.05;
     z-index: -1;
 }
 .deco-2 {
     position: absolute;
     width: 50%;
     height: 50%;
-    top: 0;
+    top: -12%;
     right: 10%;
     background-image: url('./../images/deco/pirch3.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100px;
-    opacity: 0.6;
+    background-size: 230px;
+    opacity: 0.05;
+    z-index: -1;
+}
+.deco-3 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 49%;
+    right: 20%;
+    background-image: url('./../images/deco/pirch2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 220px;
+    opacity: 0.05;
+    z-index: -1;
+}
+.deco-4 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 19%;
+    left: 3%;
+    background-image: url('./../images/deco/pirch4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 280px;
+    opacity: 0.05;
+    z-index: -1;
+}
+.deco-5 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 9%;
+    right: 3%;
+    background-image: url('./../images/deco/pirch5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 230px;
+    opacity: 0.05;
+    z-index: -1;
+}
+.deco-6 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 2%;
+    left: 3%;
+    background-image: url('./../images/deco/pirch6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    opacity: 0.05;
     z-index: -1;
 }
 /* steps */
@@ -727,8 +779,9 @@ input {
 }
 .shop__subtitle {
     display: block;
-    font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+    max-width: 200px;
+    margin: 0 auto;
 }
 .new__all {
     padding-bottom: 1rem;
@@ -1132,6 +1185,12 @@ input {
    }
     .home__description {
         margin-bottom: var(--mb-1-5);
+   }
+   .deco-1 {
+    display: none;
+   }
+   .deco-2 {
+    display: none;
    }
     .swiper-pagination {
         margin-top: var(--mb-1-5);
