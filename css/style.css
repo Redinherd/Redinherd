@@ -1002,15 +1002,15 @@ input {
 }
 .close-btn {
     position: absolute;
-    top: -25px;
+    top: -30px;
     right: 5px;
     background: red;
     color: white;
     border: none;
-    padding: 5px 8px;
+    padding: 5px 14px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 22px;
 }
 /*    ---------------------------------------------------------------------    */
 /*    ---------------------------------------------------------------------    */
