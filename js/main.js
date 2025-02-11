@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (!sessionStorage.getItem('popupClosed')) {
       popup.innerHTML = `
           <div class="popup">
-              <button class="close-btn" id="closeButton">×</button>
+              <button class="close-btn" id="closeButton">X</button>
               <img src="./images/sales/akcia.jpg" alt="Popup Image">
           </div>
       `;
